@@ -8,7 +8,7 @@ using UnityEngine;
 public abstract class AbstractButton : MonoBehaviour
 {
     public Material initialMaterial;
-    protected bool isPressed;
+    public bool isPressed;
     public Vector3 releasedPosition, pressedPosition;
     public AbstractButtonEvent affectedObject;
     
