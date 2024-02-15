@@ -8,10 +8,10 @@ using UnityEngine;
 public abstract class AbstractButton : MonoBehaviour
 {
     public Material initialMaterial;
-    public bool isPressed;
+    public bool isPressed; // test comment
     public Vector3 releasedPosition, pressedPosition;
     public AbstractButtonEvent affectedObject;
-    
+    // beans
     
     // *************************************************************
     // Functionality: Start is called before the first frame update 
