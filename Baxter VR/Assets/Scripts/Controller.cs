@@ -4,11 +4,11 @@ using UnityEngine;
 
 public enum Hand
 {
-    Right,
-    Left
+    Right, // right beans
+    Left // left beans
 }
 
-public class Controller : MonoBehaviour
+public class Controller : MonoBehaviour // Controller beans
 {
     [SerializeField] Hand hand;
 
